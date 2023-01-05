@@ -36,12 +36,13 @@ return packer.startup(function(use)
 
   -- essential plugins
   use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
+  use("tpope/vim-fugitive") -- git in nvim
   use("windwp/nvim-autopairs") -- autoclose parens, brackets, quotes, etc...
   use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
   -- commenting with gc
   use("numToStr/Comment.nvim")
 
-  -- statusline
+  -- fgnghfyvar
   use("nvim-lualine/lualine.nvim")
 
   -- file explorer
